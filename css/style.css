@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.contain{
+    background-color: #f6f6f6;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.fb{
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.fb a{
+    color: #4460a0;
+}
+.twitt{
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+.twitt a{
+    color: #00aaec;
+}
+.gray{
+    color: gray;
+    line-height: 30px;
+}
+li img{
+    margin-right: 5px;
+}
+.nav h1{
+    float: left;
+}
+.nav h1 a{
+    background-image: url(../img/logo_color.png);
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+    width: 220px;
+    height: 50px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav ul li{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav ul li a{
+    color: #00cc99;
+}
+.nav ul li a:hover{
+    border-bottom: solid #00cc99;
+}
+.ban{
+    background-image: url(../img/slogan.png);
+    width: 100%;
+    height: 346px;
+}
+.ban p{
+    font-size: 36px;
+    color: honeydew;
+    margin-left: 30px;
+    margin-top: 120px;
+}
+.program{
+    display: flex;
+    width: 1000px;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.programimg{
+    width: 300px;
+    border: 0.5px solid rgb(150, 150, 150);
+    box-shadow: 3px 3px 10px #dbdbdb;
+    border:  hidden;
+}
+.programimg img{
+    text-align: center;
+}
+.programimg h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: -3px;
+    font-size: 20px;
+}
+.programimg p{
+    text-align: justify;
+    padding: 17px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 23px;
+}
+.wrap{
+    margin-bottom: 70px;
+}
+.wrap table{
+    width: 80%;
+    margin: 0 auto;
+}
+.wrap h3{
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.green{
+    color: #22b28e;
+}
+.table td,.table th{
+    border:1px solid #dbdbdb;
+    border-right: none;
+    border-left: none;
+    font-size: 18px;
+    padding: 13px;
+}
+.table th{
+    text-align: left;
+    background: #f1f1f1;
+}
+.contactus{
+    width: 100%;
+    background: linear-gradient(#00644b,#009772);
+}
+.contactus h3{
+    text-align: center;
+    font-size: 26px;
+    line-height: 32px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: white;
+}
+.contact{
+    display: flex;
+}
+textarea{
+    width: 45%;
+    height: 250px;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+.contact text{
+    display: block;
+    display: flex;
+    align-items: center;
+}
+label, input{
+    display: block;
+}
+input{
+    border-radius: 3px;
+    width: 370px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border: none;
+}
+label{
+    font-size: 18px;
+    color: white;
+}
+.submit{
+    width: 100px;
+    background: #00cc99;
+    color: white;
+    border-radius: 3px;
+    float: right;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footerlogo{
+    background-image: url(../img/logo_bw.png);
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+    width: 50%;
+    height: 100px; 
+}
+.footercontact{
+    margin-top: 15px;
+    margin-right: 10px;
+    line-height: 20px;
+}
+.black{
+    font-size: 14px;
+}
+.peach{
+    font-size: 14px;
+    color: #e75799;
+}
